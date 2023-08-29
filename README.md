@@ -2,6 +2,8 @@
 
 Predicting the consultation fees of doctors using a linear regression model based on location, degree, and years of experience. The project deploys the machine learning model using Flask, along with a user-friendly HTML interface for easy fee predictions.
 
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -30,6 +32,18 @@ The primary objective of this project is to create a robust and accurate machine
 4. **Comprehensive Data Analysis**: Conduct thorough exploratory data analysis (EDA) to identify the most influential features affecting doctor's fees. This analysis will guide feature selection and model development.
 
 5. **Model Interpretability**: Strive to make the model's predictions interpretable and understandable. Users should have insights into how different factors contribute to the fee prediction.
+
+## Project Files
+
+| File Name                | Description                                       |
+|--------------------------|---------------------------------------------------|
+| Movie recommendation.pptx | PowerPoint presentation for the project overview |
+| README.md                | Detailed project documentation                   |
+| app.py                   | Flask application for deploying the model         |
+| movie.ipynb              | Jupyter Notebook containing model development    |
+| movie_dict.pkl           | Pickle file storing movie dictionary data         |
+| movies.pkl               | Pickle file containing movie dataset             |
+
 
 ## Introduction
 
