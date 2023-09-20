@@ -110,3 +110,14 @@ In this project, we use a linear regression model to predict doctor's fees. Line
 7. Locations like Saket in Delhi have the highest concentration of doctors.
 
 8. The most common degree among doctors is BDS.
+
+# Future scope
+
+- This fee predictor can help upcoming doctors who are looking to set up their clinic to have an idea of how much other doctors are charging.
+- Patients can have an idea of how much they are likely to be charged based on the factors that are mentioned in the model.
+- A doctor looking to expand his/her clinic to other cities can also have an idea how much doctors are charging in that particulr city of an area of the city.
+
+# Problems faced
+
+- Faced problems while deploying the model onto the webpage, tackled it by referring to the free resources and tutorials available on YouTube.
+- Having little knowledge about HTML and CSS, it was difficult to make a webpage, but took reference from YouTube and ChatGPT.
