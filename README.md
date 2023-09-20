@@ -1,12 +1,19 @@
 # Doctor-Fee-Prediction
 ![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/e873a621-a51d-4e47-af92-9db45ec52b1c)
 
+# Introduction
+
+Welcome to the repository for Doctor's Fee Prediction Machine Learning model! In this repository, I present an innovative solution aimed at predicting medical consultation fees based on various relevant factors. Whether you're a patient, healthcare professional, upcoming doctor or a data enthusiast, this project offers valuable insights into predicting the financial aspect of medical services.
+
+# Problem Aimed to Solve
+
+This project takes into consideration a number of factors such as Speciality of Doctor, Degree Type, Year of Experience, DP Score, City etc. for predicting the Doctor's fees which certainly helps patients and upcoming doctors to have an idea about it.
+
 # Tools & Technologies Used
 ![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/45351c55-f3d3-4721-86d6-30c0e4bbd68e)
 
-# Objective
-Create a machine learning model to predict doctor’s fee
-Creating a webpage for user to get accurate prediction of fee based on multiple factors
+
+
 
 # OUR APPROACH FOR THE PROJECT
 ![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/3ea4bb7a-6da9-4698-bdbd-3dc60e0cc4a2)
