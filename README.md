@@ -40,6 +40,33 @@ In this project, we use a linear regression model to predict doctor's fees. Line
 # Data Scarpping (Snapshots)
 ![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/1e286d03-131f-4665-88b0-c5cf6a801b36)
 
+
+1. **Dataframe Initialization:** Start by creating an empty DataFrame (`df`) with columns to store the scraped data. Ensure that the columns match the data you intend to collect, such as Name, Speciality, Degree, etc.
+
+2. **Specify Target Locations and Speciality:** Define the list of cities (`lis`) from which you want to extract data and specify the medical specialty (`Speciality`) of the doctors you are interested in.
+
+3. **Web Driver Initialization:** Use a web driver, such as Selenium's WebDriver, to automate the web scraping process. Initialize the web driver (e.g., ChromeDriver) before looping through the cities.
+
+4. **Iterate Through Cities:** Utilize a for loop to iterate through the list of cities (`lis`). Inside the loop, construct the URL based on the city and medical specialty to target specific search results.
+
+5. **Scrolling to Load More Data:** Implement scrolling logic to load more search results if they are spread across multiple pages. In this case, the code scrolls down the page to trigger additional data loading.
+
+6. **Parsing HTML with BeautifulSoup:** Utilize the BeautifulSoup library to parse the HTML content of the web pages. Extract data from HTML elements based on their class names and structure.
+
+7. **Scrape Doctor Details:** Within the loop, scrape details of individual doctors, such as name, degree, years of experience, location, ratings, and consultation fees. Handle exceptions gracefully to avoid script interruptions due to missing data.
+
+8. **Construct URLs for Doctor Profiles:** Construct URLs for individual doctor profiles by appending the relative links found in the search results to the base URL.
+
+9. **Append Data to DataFrame:** For each doctor's profile, append the scraped data to the DataFrame (`df`) row by row.
+
+10. **Error Handling:** Implement error handling to gracefully handle any exceptions that may arise during web scraping, ensuring that the script continues to run and collect data.
+
+11. **Data Storage:** Depending on your requirements, you may want to store the scraped data in a suitable format, such as CSV, Excel, or a database, after completing the scraping process.
+
+12. **Clean and Validate Data:** After scraping, it's essential to clean and validate the data to ensure its quality and consistency.
+
+By following these pointers and adapting the code to your specific requirements, you can effectively scrape data from web pages for analysis or other purposes.
+
 ----------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/063e6947-46c3-4e1d-a306-8f4168a3e9a0)
 
